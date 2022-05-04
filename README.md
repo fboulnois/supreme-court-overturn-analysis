@@ -105,7 +105,7 @@ ggplot(data = dt, aes(year_of_overruling_decision)) +
   theme_bw()
 ```
 
-![](README_files/figure-gfm/hist-1-1.png)<!-- -->
+![decisions overruled since the founding of the United States](README_files/figure-gfm/hist-1-1.png)<!-- -->
 
 Based on the histogram, most decisions were overruled by subsequent
 decisions around the 1940s and 1970s, and the last two decades have been
@@ -290,7 +290,7 @@ ggplot(data = dt[year_of_overruling_decision >= 2000, ], aes(year_of_overruling_
   theme_bw()
 ```
 
-![](README_files/figure-gfm/hist-since-2000-1.png)<!-- -->
+![decisions overruled since the year 2000](README_files/figure-gfm/hist-since-2000-1.png)<!-- -->
 
 ``` r
 dt[year_of_overruling_decision >= 2000, .N, by = year_of_overruling_decision][, sum(N)]
