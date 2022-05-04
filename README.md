@@ -5,7 +5,7 @@ fboulnois
 
 ## Summary
 
-Based on the news that the Supreme Court will [likely overturn abortion
+Based on the news that the Supreme Court may [overturn abortion
 rights](https://www.politico.com/news/2022/05/02/supreme-court-abortion-draft-opinion-00029473),
 I began wondering how often previous rulings are overturned. I was also
 curious whether there was trend of an increasing number of cases being
@@ -20,7 +20,7 @@ direction.
 
 Luckily for us, [Congress provides a
 table](https://constitution.congress.gov/resources/decisions-overruled/)
-of all of the previous decisions overruled by subsequent decisions!
+of all of the previous decisions overruled by subsequent decisions.
 
 The first step is thus to download this table locally as a CSV.
 
@@ -353,7 +353,7 @@ containers found in a vehicle (in this case the trunk) if they already
 have probable cause to perform a legal warrantless search of the
 automobile.
 
-## Conclusions
+## Conclusion
 
 Many decisions were overruled by subsequent decisions around the 1940s
 and 1970s, and few Supreme Court decisions have been overruled in the
@@ -361,6 +361,6 @@ last two decades. The longest standing decision before being overturned
 stood for 136 years, and the shortest only one year.
 
 Although the `data.table`, `stringr`, and `ggplot2` R packages are
-overkill for this analysis they also make it really easy. I find these
+excessive for this analysis they also make it really easy. I find these
 packages indispensable to consistently and cohesively address more
 challenging data problems.

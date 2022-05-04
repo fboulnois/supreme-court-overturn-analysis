@@ -15,13 +15,13 @@ library(ggplot2)
 
 ## Summary
 
-Based on the news that the Supreme Court will [likely overturn abortion rights](https://www.politico.com/news/2022/05/02/supreme-court-abortion-draft-opinion-00029473), I began wondering how often previous rulings are overturned. I was also curious whether there was trend of an increasing number of cases being overruled in the last few decades, perhaps due to polarization or for other reasons.
+Based on the news that the Supreme Court may [overturn abortion rights](https://www.politico.com/news/2022/05/02/supreme-court-abortion-draft-opinion-00029473), I began wondering how often previous rulings are overturned. I was also curious whether there was trend of an increasing number of cases being overruled in the last few decades, perhaps due to polarization or for other reasons.
 
 The short answer is that in the last two decades, rulings have not been overturned very often, and there does not seem to be a trend in either direction.
 
 ## Downloading the data
 
-Luckily for us, [Congress provides a table](https://constitution.congress.gov/resources/decisions-overruled/) of all of the previous decisions overruled by subsequent decisions!
+Luckily for us, [Congress provides a table](https://constitution.congress.gov/resources/decisions-overruled/) of all of the previous decisions overruled by subsequent decisions.
 
 The first step is thus to download this table locally as a CSV.
 
@@ -143,8 +143,8 @@ United States v. Ross (1982) overruled Robbins v. California (1981) in just one 
 
 In Robbins, the Supreme Court stated that the Fourth Amendment provides protection to the owner of every container that conceals its contents from plain view. But in Ross, the court found that there is a motor vehicle exception to this rule which allows law enforcement to search containers found in a vehicle (in this case the trunk) if they already have probable cause to perform a legal warrantless search of the automobile.
 
-## Conclusions
+## Conclusion
 
 Many decisions were overruled by subsequent decisions around the 1940s and 1970s, and few Supreme Court decisions have been overruled in the last two decades. The longest standing decision before being overturned stood for 136 years, and the shortest only one year.
 
-Although the `data.table`, `stringr`, and `ggplot2` R packages are overkill for this analysis they also make it really easy. I find these packages indispensable to consistently and cohesively address more challenging data problems.
+Although the `data.table`, `stringr`, and `ggplot2` R packages are excessive for this analysis they also make it really easy. I find these packages indispensable to consistently and cohesively address more challenging data problems.
